@@ -1,0 +1,114 @@
+Kiindulási döntés (260613)
+✅ Van egy aimc-ai-enterprise repo
+✅ Ez a mentoring / AIMC igazságforrás
+✅ Az AIO csak ebből kap tudást
+✅ EBON téma lesz, de nem dominál MOST
+
+Repo → gondolkodás
+AIO → beszélgetés és mentoring
+Operáció → később
+aimc-ai-enterprise/
+│
+├─ README.md                     ✅ kész
+│
+├─ 00-orientation/
+│   └─ ai-in-telekom-context.md  ⬅️ következő
+│
+├─ 01-ai-fundamentals/
+│   ├─ ai-vs-llm.md
+│   └─ llm-vs-rag.md
+│
+├─ 02-enterprise-ai-reality/
+│   └─ ideal-vs-reality.md
+│
+├─ 04-ai-systems/
+│   └─ ai-operator-as-system.md
+│
+└─ assets/
+    └─ ascii-diagrams.md
+
+👉 Ez már oktatható + AIO‑ba tölthető
+2️⃣ AIO – MOSTANI feltöltési stratégia (AIMC mód)
+AIO kategóriahasználat (fontos!)
+Application = fogalmak / rendszerek
+Service     = enterprise realitás / governance
+Resolution  = ❌ üres marad
+Personal    = mentoring jegyzetek
+📂 AIO – General / Application (ELSŐ KÖR)
+Repo fájlokból:
+
+ai-vs-llm.md
+llm-vs-rag.md
+ai-operator-as-system.md
+
+👉 AIO tudjon erre válaszolni:
+
+What is AI in enterprise?
+Why is an LLM not enough?
+What kind of system is AIO?
+
+
+📂 AIO – General / Service (MÁSODIK KÖR)
+Repo fájlokból:
+
+ideal-vs-reality.md
+ai-in-telekom-context.md (ha kész)
+
+👉 AIO tudjon erre válaszolni:
+
+Why does enterprise AI feel slow?
+Where does AI usually break?
+
+
+📂 AIO – Personal
+
+mentoring kérdések
+workshop jegyzetek
+EBON‑ra vonatkozó „what if” gondolatok
+
+⚠️ SEM MI VÉGLEGES NEM MARAD ITT
+
+✅ 3️⃣ EBON – hogyan jelenik meg MOST?
+FONTOS: EBON most TÉMA, nem rendszer
+Repo-ban:
+/EBON/
+└─ ebon-as-case-study.md   (1 oldal, később)
+
+Tartalom:
+
+miért érdekes
+hol tipikus
+hol problémás
+
+❌ nincs architektúra
+❌ nincs üzemeltetés
+
+AIO-ban:
+
+mentoring kérdésként jelenik meg, pl.:
+
+
+“How would this apply to an application like EBON?”
+
+👉 EBON = példa, nem payload
+
+🔁 4️⃣ Jövőbeli átmenet (MOST MÉG CSAK KERET)
+Később, ha operatív irányba mentek:
+Phase 1 (NOW): AIMC only
+Phase 2: AIMC + EBON knowledge
+Phase 3: EBON operational AIO
+
+👉 de Phase 2–3 csak akkor, ha:
+
+governance oké
+scope tiszta
+külön döntés születik
+Az aimc-ai-enterprise repo nem egy projekt mellékterméke.
+Ez a gondolkodás infrastruktúrája.
+ a 00-orientation/ai-in-telekom-context.md fájlt –
+ez lesz a teljes repo + az AIMC‑AIO belépési pontja.
+Ez a dokumentum nem technikai, hanem mentális térkép:
+👉 hol vagyunk Telekomnál az AI‑val, és miért így közelítünk hozzá.
+Az alábbi szöveg repo‑kész, AIO‑ba is feltölthető, és időtálló.
+
+Markdown# AI in the Telekom Enterprise Context
