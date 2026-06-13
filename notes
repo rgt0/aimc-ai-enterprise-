@@ -111,4 +111,77 @@ Ez a dokumentum nem technikai, hanem mentális térkép:
 👉 hol vagyunk Telekomnál az AI‑val, és miért így közelítünk hozzá.
 Az alábbi szöveg repo‑kész, AIO‑ba is feltölthető, és időtálló.
 
-Markdown# AI in the Telekom Enterprise Context
+🧩 AIMC AIO – OPTIMÁLIS FILE STRATÉGIA (10 fájl alatt)
+🟦 1️⃣ AIMC_AI_Fundamentals.md  ✅ (1 fájl!)
+Tartalmazza:
+Markdown# AI vs LLM## ...# LLM vs RAG## ...# Limits of LLMs## ...Show more lines
+👉 AIO szempontból:
+
+ez 3 külön témának látszik
+embedding szinten szétesik
+
+
+🟩 2️⃣ AIMC_Enterprise_Reality.md ✅ (1 fájl!)
+Tartalmazza:
+Markdown# Ideal vs Reality## ASCII diagram# Where AI Breaks## IAM, Integration# Platform DependencyShow more lines
+👉 AIO:
+
+ezt imádja
+össze tudja kötni a gondolatokat
+
+
+🟧 3️⃣ AIMC_AI_Systems.md ✅
+Markdown# AI Operator as a System# AI Engineer as a System# RAG in PracticeShow more lines
+
+🟨 4️⃣ AIMC_STRIVE_and_Governance.md ✅
+Markdown# STRIVE Platform View# Governance & AI Act# Responsibility ModelShow more lines
+
+🟪 5️⃣ AIMC_Legacy_and_COBOL.md ✅
+Markdown# Why Legacy Matters# COBOL Reality# AI Modernization FlowShow more lines
+
+🧠 Ezzel hol tartunk?
+5 fájl
+≈ 25–40 jól elkülönülő RAG chunk
+≈ teljes AIMC tudásmag
+
+
+📦 A maradék 5 fájl mire jó?
+✅ Tartalék / jövőbeli bővítés
+
+EBON case study (1 fájl)
+Mentoring FAQ (1 fájl)
+Workshop notes (Personal)
+Transition to operations (1 fájl)
+„Anti-patterns” gyűjtemény (1 fájl)
+
+
+🔁 Repo ↔ AIO szinkron (fontos!)
+Repo oldalon:
+/01-ai-fundamentals/ai-vs-llm.md
+/01-ai-fundamentals/llm-vs-rag.md
+
+AIO oldalon:
+✅ összefűzött verzió
+Shellcat ai-vs-llm.md llm-vs-rag.md > AIMC_AI_Fundamentals.md``Show more lines
+👉 Repo = granular
+👉 AIO = optimalizált
+
+🧪 Hogyan ellenőrizd, hogy „elég” a 10 fájl?
+Service Chat kérdések:
+- Why is AI not equal to an LLM?
+- What breaks first in enterprise AI?
+- How does governance affect AI systems?
+
+✅ Jó jel:
+
+több forrás
+különböző fejezetekre hivatkozik
+
+
+🔥 1 mondatos tanulság
+In RAG systems, structure beats volume.
+
+vagy még erősebben:
+One good file can be better than ten bad ones.
+
+
