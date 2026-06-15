@@ -271,3 +271,792 @@ It is governance for meaning.
 
 © AIMC – AI Mindset & Competence
 
+
+You said:
+dolgozzuk fel ezt: Die Gemini Enterprise App bietet allen Mitarbeitern die besten KI-Funktionen von Google
+Copilot said:
+Copilot
+Perfekt — wir „verarbeiten“ den Satz system‑centric, nicht marketing‑szinten.
+Genau úgy, ahogy az AIMC repo‑hoz illik.
+
+Az исход mondat:
+
+„Die Gemini Enterprise App bietet allen Mitarbeitern die besten KI‑Funktionen von Google“
+
+1️⃣ Marketing‑szint (eredeti jelentés)
+Ez a mondat marketing‑nyelv, nem technikai állítás.
+
+Mit állít implicit módon:
+
+„allen Mitarbeitern” → mindenki hozzáfér
+„die besten” → minőségi értékítélet
+„KI‑Funktionen” → homályos, nincs bontva
+„von Google” → vendor‑referencia
+👉 Ezt nem lehet így átvenni az AIMC repo‑ba.
+
+2️⃣ System‑centric bontás (mit jelent VALÓJÁBAN)
+✅ Korrigált, technikai értelmezés
+
+
+
+Plain Text
+Die Gemini Enterprise App stellt ausgewählten Mitarbeitern
+einen Zugriff auf generative KI‑Funktionen bereit,
+die in bestehende Produktivitätsumgebungen integriert sind
+und unterliegen unternehmensspezifischer Governance.
+🔹 eltűnt:
+
+„die besten”
+általánosítás
+🔹 bekerült:
+
+hozzáférés feltételes
+integráció
+governance
+3️⃣ Capability‑szint (mit tud ténylegesen)
+
+
+
+Markdown
+### Provided AI Capabilities
+
+The Gemini Enterprise App provides access to generative AI capabilities such as:
+
+- text generation
+- summarization
+- rewriting
+- question answering
+
+These capabilities operate within defined enterprise platforms
+and are limited by access rights, connected data sources, and governance rules.
+
+Weitere Zeilen anzeigen
+👉 nem „minden KI”, hanem konkrét capability osztály.
+
+4️⃣ Usage‑szint (használati támogatás, de nem user guide)
+
+
+
+Markdown
+### Usage Context
+
+The Gemini Enterprise App is intended to support employees
+in knowledge-based tasks such as drafting, summarizing,
+and exploring information.
+
+The application does not:
+
+- understand business processes
+- validate correctness
+- make autonomous decisions
+
+All outputs require human review.
+
+Weitere Zeilen anzeigen
+👉 Ez már használati támogatás, de nem klikkelési útmutató.
+
+5️⃣ Enterprise‑reality check (AIMC‑kompatibilis!)
+
+
+
+Markdown
+### Enterprise Reality
+
+Although marketed as available to "all employees",
+actual usage depends on:
+
+- identity and access management (IAM)
+- license assignment
+- data access permissions
+- compliance and governance policies
+
+Availability does not imply unrestricted usage.
+
+Weitere Zeilen anzeigen
+6️⃣ „What this does NOT mean” (kritikus rész!)
+
+
+
+Markdown
+### What This Does NOT Mean
+
+- Not all employees automatically have access
+- Not all enterprise data is available to the AI
+- Not all outputs are correct or safe to use
+- The AI does not replace responsibility or expertise
+7️⃣ AIMC‑ready végső változat (repo‑ba tehető)
+
+
+
+Markdown
+The Gemini Enterprise App provides access to generative AI capabilities
+for employees within governed enterprise environments.
+
+These capabilities support knowledge work through text-based assistance
+but do not understand enterprise systems, processes, or responsibilities.
+
+Usage is subject to access control, governance, and mandatory human validation.
+
+Weitere Zeilen anzeigen
+✅ Egy mondatos összegzés (nagyon fontos)
+A mondat marketing szinten „mindenkinek a legjobbat” ígér,
+system‑centric nézőpontból viszont egy korlátozott, governált generatív AI capabilityt jelent.
+
+🔜 Következő lépés (logikus folytatás)
+Ha szeretnéd, a következőket tudjuk még feldolgozni:
+
+✅ „allen Mitarbeitern” → IAM & reality breakdown
+✅ „beste KI‑Funktionen” → capability vs benchmark
+✅ konkrét click‑path usage (külön usage‑support ágban!)
+✅ összehasonlítás Microsoft / OpenAI enterprise narratívákkal
+Mondd, merre menjünk tovább.
+
+
+
+
+
+
+You said:
+akkor (mégis) csináljunk a 04-ai-systems alá egy gemini által biztosított lehetőségek áttekintését
+Copilot said:
+Copilot
+✅ Rendben — akkor konkrétan megcsináljuk a
+04-ai-systems alá a Gemini által biztosított lehetőségek áttekintését,
+AIMC‑kompatibilis, system‑centric, de már használat‑orientált módon.
+
+Ez nem marketing, nem user guide, de konkrét, és később lebontható klikkelésig.
+
+📁 Javasolt hely és fájl
+04-ai-systems/
+└── gemini/
+    └── gemini-enterprise-capabilities.md
+📘 gemini-enterprise-capabilities.md
+(copy‑paste ready)
+
+
+
+
+Markdown
+# Gemini Enterprise – Provided Capabilities (System-Level Overview)
+
+## Purpose
+
+This document provides a concrete overview of the AI capabilities
+made available through Google Gemini in an enterprise context.
+
+It focuses on **what the system enables**, **how it behaves**, and
+**what constraints apply** — not on marketing claims or UI tutorials.
+
+---
+
+## What Gemini Enterprise Represents
+
+Gemini Enterprise is an example of an **enterprise-integrated generative AI system**.
+
+It provides access to large language model (LLM) capabilities
+within governed productivity environments.
+
+The system operates as a **capability provider**, not as an autonomous agent.
+
+---
+
+## Core Capabilities Provided
+
+Gemini Enterprise provides access to the following AI capabilities:
+
+### Text Generation
+- drafting text
+- rewriting content
+- generating alternatives
+
+### Summarization
+- summarizing documents
+- summarizing emails or conversations
+- extracting key points
+
+### Question Answering
+- answering questions based on provided or accessible content
+- explaining text fragments
+
+### Ideation Support
+- brainstorming
+- proposing structures or outlines
+
+All outputs are generated text proposals.
+
+---
+
+## How These Capabilities Are Delivered
+
+From a system perspective, the interaction follows this pattern:
+
+Human input  
+→ Gemini interface  
+→ Enterprise platform & access control  
+→ LLM inference  
+→ Generated text  
+→ Human review  
+
+Gemini does **not** understand enterprise systems or business semantics.
+It generates text based on statistical language patterns.
+
+---
+
+## Data Access and Context
+
+Gemini Enterprise can only operate on:
+
+- user-provided prompts
+- documents explicitly accessible to the user
+- connected data sources approved by governance
+
+If information is not accessible through these channels,
+Gemini has no awareness of it.
+
+---
+
+## Usage Context in Enterprises
+
+Typical supported activities include:
+
+- knowledge work assistance
+- document drafting and review
+- information summarization
+- exploratory analysis
+
+These activities are **assistive**, not decision-making tasks.
+
+---
+
+## System Constraints and Limitations
+
+Gemini Enterprise:
+
+- does not validate correctness
+- does not understand end-to-end processes
+- does not detect business or legal errors
+- does not carry responsibility
+
+All outputs must be reviewed by a human.
+
+---
+
+## Governance and Responsibility
+
+Usage of Gemini Enterprise is subject to:
+
+- identity and access management (IAM)
+- licensing and entitlement
+- enterprise governance policies
+- compliance requirements
+
+Availability does not imply unrestricted usage.
+
+---
+
+## What This Is Not
+
+Gemini Enterprise is not:
+
+- an autonomous system
+- a business decision engine
+- a system-of-record
+- a replacement for domain expertise
+
+---
+
+## Why This Matters
+
+Understanding these capabilities at system level helps to:
+
+- set realistic expectations
+- prevent misuse
+- integrate AI responsibly
+- avoid treating AI as authoritative
+
+---
+
+## Reference Example
+
+This document uses Gemini Enterprise as an example of an
+enterprise-integrated generative AI capability.
+
+Similar capability classes exist across multiple vendors.
+The focus is on the **capability**, not the product.
+
+Weitere Zeilen anzeigen
+🧠 Miért jó ez az 04-ai-systems szinten?
+✅ konkrét (Gemini)
+✅ de nem vendor‑promo
+✅ system‑centric
+✅ használat‑közeli
+✅ tovább bontható
+
+Innen logikusan lehet továbbmenni:
+
+usage-support/ → klikkelésig
+limitations-and-pitfalls.md
+human-in-the-loop.md
+✅ Egy mondatos összefoglaló
+A Gemini Enterprise képességeinek áttekintése az ai-systems szinten nem a terméket mutatja be, hanem azt, hogyan működik egy enterprise‑integrált generatív AI rendszer valójában, és milyen felelősségek kapcsolódnak a használatához.
+
+🔜 Következő lépés (opcionális)
+Innen teljesen természetes folytatás lehet:
+
+✅ gemini/usage-support.md (már klikkelésig)
+✅ gemini/limitations-and-pitfalls.md
+✅ gemini/anti-patterns.md (tipikus félrehasználás)
+Mondd, melyiket csináljuk meg következőnek.
+
+
+
+
+
+
+You said:
+gemini/usage-support.md (már klikkelésig)
+Copilot said:
+Copilot
+✅ Rendben — akkor konkrétan elkészítjük a
+gemini/usage-support.md fájlt klikkelésig lemenő, de enterprise‑kompatibilis formában.
+
+Ez szándékosan külön van a COBOL mentoringtól, és kifejezetten operatív használati támogatás.
+
+📁 Helye a repóban
+04-ai-systems/
+└── gemini/
+    └── usage-support.md
+📘 usage-support.md
+(copy‑paste ready, repo‑kompatibilis)
+
+
+
+
+Markdown
+# Gemini Enterprise – Usage Support (Operational Level)
+
+## Purpose
+
+This document provides operational usage support for Google Gemini
+in an enterprise environment.
+
+It intentionally goes down to concrete interaction and click paths,
+while remaining within enterprise governance boundaries.
+
+This is not a product manual.
+This is not a marketing document.
+It is practical usage support.
+
+---
+
+## Scope
+
+This document covers:
+
+- how users typically access Gemini Enterprise
+- how interactions usually start
+- what users can and cannot do
+- where validation is required
+
+---
+
+## Access Preconditions
+
+Gemini Enterprise usage depends on:
+
+- valid enterprise identity (IAM)
+- assigned license or entitlement
+- enabled Gemini integration in the productivity platform
+- compliance with enterprise policies
+
+Not all employees automatically have access.
+
+---
+
+## Typical Access Points
+
+Depending on the enterprise setup, Gemini is typically accessed via:
+
+- Google Workspace (Docs, Sheets, Gmail)
+- integrated assistant panels
+- browser-based enterprise UI
+
+The exact UI may vary by tenant and configuration.
+
+---
+
+## Typical Click Path (Example)
+
+This is a **representative flow**, not a guaranteed UI sequence.
+
+### Example: Using Gemini in Google Docs
+
+1. User opens Google Docs
+2. User opens an existing or new document
+3. Gemini assistant is activated via the UI (icon or menu)
+4. User enters a prompt (e.g. "Summarize this document")
+5. Gemini generates a text proposal
+6. User reviews the output
+7. User edits, corrects, or discards the result
+
+No content is automatically applied without user interaction.
+
+---
+
+## Prompt Interaction Pattern
+
+Typical prompts include:
+
+- "Summarize the following text"
+- "Rewrite this paragraph more concisely"
+- "Propose an outline for this document"
+- "Explain this section in simpler terms"
+
+Gemini always returns **text proposals**, not validated answers.
+
+---
+
+## Mandatory Human Validation
+
+Every Gemini output must be reviewed by a human.
+
+Users are responsible for:
+
+- checking correctness
+- verifying business meaning
+- ensuring compliance and confidentiality
+
+Gemini does not validate output quality or correctness.
+
+---
+
+## Data and Context Boundaries
+
+Gemini can only operate on:
+
+- the prompt provided by the user
+- content visible in the current document
+- data sources explicitly connected and permitted
+
+If data is not accessible, Gemini cannot infer or retrieve it.
+
+---
+
+## Common Misuse Patterns
+
+The following patterns must be avoided:
+
+- copying output without review
+- treating AI output as authoritative
+- using Gemini for autonomous decisions
+- entering sensitive or prohibited data
+
+---
+
+## Correct Usage Pattern
+
+Human intent  
+→ AI-generated proposal  
+→ Human review and correction  
+→ Final decision by the human  
+
+Responsibility always remains with the user.
+
+---
+
+## Known Limitations
+
+Gemini Enterprise:
+
+- does not understand enterprise processes
+- does not know system dependencies
+- does not detect legal or contractual issues
+- may generate plausible but incorrect text
+
+---
+
+## When Not to Use Gemini
+
+Gemini should not be used for:
+
+- final business decisions
+- legal or contractual judgments
+- system-of-record updates
+- unattended or automated actions
+
+---
+
+## Key Takeaway
+
+Gemini Enterprise is a powerful assistant for knowledge work,
+but it is not an intelligent system.
+
+Correct usage requires awareness of its limits,
+enterprise context, and human responsibility.
+
+Weitere Zeilen anzeigen
+🧠 Miért ez jó így?
+✅ klikkelésig lemegy
+✅ operatív
+✅ használható onboardinghoz
+✅ nem sérti az AIMC elveket
+✅ nem keveredik COBOL mentoringgal
+
+✅ Egy mondatos összefoglaló
+The usage-support document provides concrete, click-level guidance for using Gemini Enterprise responsibly within an enterprise system, while maintaining human accountability and governance.
+
+🔜 Következő természetes lépés (opcionális)
+Innen logikusan jöhetne még:
+
+gemini/limitations-and-pitfalls.md
+gemini/anti-patterns.md
+gemini/faq.md (operational questions)
+gemini/example-prompts.md (governed prompt examples)
+Mondd, melyikkel menjünk tovább.
+
+
+
+
+
+
+You said:
+1)hogyan tudok linket definiálni md-ben?
+2) gemini/faq.md (operational questions)
+Copilot said:
+Copilot
+Rendben 👍 — válaszolok pontosan a két kérdésedre, repo‑ és AIMC‑kompatibilis módon.
+
+1️⃣ Hogyan tudok linket definiálni Markdownban?
+✅ Alap szint (ez elég az esetek 90%-ában)
+
+
+
+Markdown
+https://example.com
+Példa (Gemini):
+
+
+
+Markdown
+https://cloud.google.com/gemini-enterprise
+✅ Link új sorban, „reference” jelleggel (repo‑barát)
+
+
+
+Markdown
+Example:
+- https://cloud.google.com/gemini-enterprise
+Ez nagyon jól illik capability / system dokumentumokba.
+
+✅ Relatív link repo‑n belül (ERŐSEN ajánlott)
+
+
+
+Markdown
+[Usage Support](usage-support.md)
+vagy:
+
+
+
+
+Markdown
+./gemini-enterprise-capabilities.md
+👉 nem törik, ha a repo máshova kerül.
+
+✅ Anchor (szekción belüli link)
+Ha van egy cím:
+
+
+
+
+Markdown
+## Data Access and Context
+akkor erre lehet linkelni:
+
+
+
+
+Markdown
+#data-access-and-context
+⚠️ Amit kerülj
+❌ nyers URL szövegben
+❌ „click here” típusú linkek
+❌ marketing CTA stílus
+
+✅ AIMC‑stílus összefoglaló
+Link mindig kontextus része, nem fő tartalom.
+
+2️⃣ gemini/faq.md – Operational Questions
+Most konkrétan megírom a fájlt, repo‑ready, klikkeléshez közel, de enterprise‑gondolkodással.
+
+📁 Helye a repóban
+04-ai-systems/
+└── gemini/
+    └── faq.md
+📘 faq.md
+(copy‑paste ready)
+
+
+
+
+Markdown
+# Gemini Enterprise – Operational FAQ
+
+## Purpose
+
+This FAQ addresses common operational questions about using
+Gemini Enterprise in an enterprise environment.
+
+It focuses on practical usage, constraints, and responsibilities.
+
+---
+
+## Q: Do all employees automatically have access to Gemini Enterprise?
+
+**No.**
+
+Access depends on:
+- enterprise identity and IAM
+- assigned licenses or entitlements
+- enabled Gemini integration
+- governance and compliance rules
+
+Availability is controlled centrally.
+
+---
+
+## Q: Can Gemini access all enterprise documents?
+
+**No.**
+
+Gemini can only access:
+- content explicitly visible to the user
+- documents within permitted scopes
+- connected data sources approved by governance
+
+If a document is not accessible, Gemini has no awareness of it.
+
+---
+
+## Q: Is Gemini output always correct?
+
+**No.**
+
+Gemini generates text based on patterns.
+It does not validate correctness, meaning, or business impact.
+
+All output must be reviewed by a human.
+
+---
+
+## Q: Can Gemini be used for business or legal decisions?
+
+**No.**
+
+Gemini:
+- does not understand business processes
+- does not assess legal risk
+- does not carry responsibility
+
+Final decisions remain with humans.
+
+---
+
+## Q: Can Gemini act autonomously or execute actions?
+
+**No.**
+
+Gemini:
+- generates proposals
+- does not execute actions
+- does not modify systems of record
+
+All actions require explicit human interaction.
+
+---
+
+## Q: Can sensitive or confidential data be entered into Gemini?
+
+**Only if explicitly allowed by enterprise policy.**
+
+Users must follow:
+- data classification rules
+- confidentiality requirements
+- compliance policies
+
+When in doubt, do not enter sensitive data.
+
+---
+
+## Q: Why does Gemini sometimes produce plausible but incorrect answers?
+
+Because:
+- it predicts likely text sequences
+- it does not understand factual truth
+- it lacks full enterprise context
+
+This behavior is inherent to LLM-based systems.
+
+---
+
+## Q: When should Gemini NOT be used?
+
+Gemini should not be used for:
+- autonomous decisions
+- legal judgments
+- financial approvals
+- system-of-record updates
+- tasks requiring guaranteed correctness
+
+---
+
+## Q: What is the correct usage pattern?
+
+Human intent  
+→ AI-generated proposal  
+→ Human review and validation  
+→ Final human decision  
+
+Responsibility always remains with the user.
+
+---
+
+## Key Takeaway
+
+Gemini Enterprise is an assistive system.
+It improves productivity but does not replace human judgment,
+enterprise governance, or responsibility.
+
+Weitere Zeilen anzeigen
+✅ Hogyan kapcsolódik ez a többi fájlhoz?
+Ajánlott keresztlinkek:
+
+
+
+
+Markdown
+See also:
+- ./gemini-enterprise-capabilities.md
+- [Usage Support](usage-support.md)
+✅ Egy mondatos összefoglaló
+A FAQ dokumentum a Gemini Enterprise gyakorlati használatával kapcsolatos legfontosabb operatív kérdéseket tisztázza, miközben következetesen fenntartja az enterprise governance és human‑in‑the‑loop szemléletet.
+
+Ha szeretnéd, következő lépésként:
+
+✅ csinálhatunk egy „anti‑patterns FAQ”‑t
+✅ vagy egy „Gemini vs expectations” rövid fájlt
+✅ vagy összekötjük ezt a COBOL / legacy réteggel
+Csak mondd.
+
+
+
+
+
+
+
+
+Nachricht an Copilot
+
+
+
+KI-generierte Inhalte können fehlerhaft sein
