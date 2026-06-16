@@ -204,5 +204,52 @@ It is **realistic enterprise AI**.
 
 ---
 
+┌─────────────────────────┐
+                         │         Human            │
+                         │  (Employee / Operator)  │
+                         └─────────────┬───────────┘
+                                       │
+                                       │  Professional Input
+                                       ▼
+┌────────────────────────────────────────────────────────────┐
+│                         DNABOT                              │
+│                  (AI Access Layer)                          │
+│                                                            │
+│  ┌──────────────────────────────────────────────────────┐  │
+│  │ Governance & Policy Enforcement                        │  │
+│  │ - Protection Class checks                              │  │
+│  │ - Secret classification limits                         │  │
+│  │ - Personal data restrictions                           │  │
+│  └──────────────────────────────────────────────────────┘  │
+│                          │                                  │
+│                          ▼                                  │
+│  ┌──────────────────────────────────────────────────────┐  │
+│  │ Model Execution                                       │  │
+│  │ - Open-source LLMs (LLAMA / Mistral)                   │  │
+│  │ - No memory, no learning                               │  │
+│  │ - No organizational knowledge                          │  │
+│  └──────────────────────────────────────────────────────┘  │
+└───────────────────────────┬────────────────────────────────┘
+                            │
+                            │ Generated Proposal
+                            ▼
+                 ┌─────────────────────────┐
+                 │        Output            │
+                 │  (Non-binding Response) │
+                 └─────────────┬───────────┘
+                               │
+                               │ Critical Review & Validation
+                               ▼
+                 ┌─────────────────────────┐
+                 │        Human             │
+                 │  Meaning & Responsibility│
+                 └─────────────────────────┘
+
+DNABOT does not produce decisions.
+It produces proposals.
+
+Meaning, correctness, and responsibility
+always remain with humans and the organization.
+
 © AIMC – AI Mindset & Competence  
 This document contains no operational instructions and no confidential information.
