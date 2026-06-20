@@ -48,7 +48,19 @@ theory ↔ reality
 kglossary    Knowledge Model
 oglossary    Operational Control Model
 
+# AIMC Paths
 
+This folder defines how to navigate and learn the glossary.
+
+## Files
+
+- reading-order.md → linear navigation
+- learning-path.md → structured learning model
+
+## Key Idea
+
+The glossary defines concepts.
+The paths define understanding.
 
 
 “We separate AI understanding from AI control — because enterprise failures happen in the gap between them.”
