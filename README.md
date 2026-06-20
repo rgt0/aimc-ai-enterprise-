@@ -190,6 +190,43 @@ This repository is intended for:
 No prior AI expertise is required — but **enterprise experience helps**.
 
 ---
+# AIMC Glossary Structure
+
+The glossary is split into two complementary views:
+
+## 📘 kglossary (Knowledge)
+
+Focus:
+- definitions
+- concepts
+- enterprise meaning
+
+Answers:
+"What is it?"
+
+## ⚙️ oglossary (Operational)
+
+Focus:
+- failures
+- root causes
+- control mechanisms
+- ownership
+
+Answers:
+"What breaks, and how do we control it?"
+
+---
+
+## Key Principle
+
+Understanding comes before control.
+
+kglossary → understanding  
+oglossary → operation
+
+Both are required for enterprise AI systems.
+
+---
 
 ## 🔐 Governance Note
 
