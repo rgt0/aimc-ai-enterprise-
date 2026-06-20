@@ -1,0 +1,54 @@
+# AIMC Glossary Structure
+
+The glossary is split into two complementary views:
+
+## 📘 kglossary (Knowledge)
+
+Focus:
+- definitions
+- concepts
+- enterprise meaning
+
+Answers:
+"What is it?"
+
+## ⚙️ oglossary (Operational)
+
+Focus:
+- failures
+- root causes
+- control mechanisms
+- ownership
+
+Answers:
+"What breaks, and how do we control it?"
+
+---
+
+## Key Principle
+
+Understanding comes before control.
+
+kglossary → understanding  
+oglossary → operation
+
+Both are required for enterprise AI systems.
+
+Concept Layer   → kglossary
+Control Layer   → oglossary
+
+
+architecture ↔ operations
+model ↔ governance
+theory ↔ reality
+
+
+💡 7. Extra naming 
+
+kglossary    Knowledge Model
+oglossary    Operational Control Model
+
+
+
+
+“We separate AI understanding from AI control — because enterprise failures happen in the gap between them.”
