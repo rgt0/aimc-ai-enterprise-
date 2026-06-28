@@ -1,0 +1,13 @@
+# Exercise: COBOL → AI Interpretation Gap
+
+## Input
+Provide a COBOL batch program
+
+## Task
+1. Ask AI to explain it
+2. Identify where explanation fails
+3. Map missing context
+
+## Output
+- failure points
+- correction strategy
